@@ -1,0 +1,40 @@
+#wrapper{
+    width:1120px;
+    height:700px;
+    background:url("../images/body.jpg");
+    margin:0 auto;
+    overflow: hidden;
+    position: relative;
+}
+#btn{
+    width:80px;
+    height: 40px;
+    border: none;
+    background:url("../images/mus.jpg") no-repeat center center;
+    background-size:80px 40px;
+    font-family: "microsoft yahei";
+    font-size: 18px;
+    color:#999;
+    outline: none;
+    margin-left:1040px;
+    border-radius: 20px;
+}
+canvas{
+    display: block;
+    box-shadow:-2px -2px 2px #efefef,5px 5px 5px #b9b9b9;
+    position: absolute;
+    left:335px;
+    top:210px;
+}
+#again{
+    outline: none;
+    width: 100px;
+    height: 40px;
+    border-radius:15px;
+    background: orange;
+    border: none;
+    font-weight: bold;
+    font-size: 18px;
+    margin-left:900px;
+    margin-top: 500px;
+}
